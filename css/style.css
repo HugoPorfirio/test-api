@@ -1,0 +1,57 @@
+body { 
+    background: #e3e3e3; 
+}
+header { 
+    margin-top: 30px; 
+}
+header a { 
+    color: #007bff; 
+    text-decoration: none; 
+    font-family: 'Ubuntu', sans-serif; 
+}
+header a:hover { 
+    text-decoration: none; 
+}
+form { 
+    margin-top: 20px; 
+}
+form, #results { 
+    padding: 0 20px; 
+}
+
+#results { 
+    width: 100%;
+    margin: 0px 10px 0px 10px;
+}
+
+.item { 
+    margin-bottom: 25px;
+    padding: 10px 200px 10px 200px; 
+}
+.font-item{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+.w100 { 
+    width: 100%; 
+}
+
+.btn-primary { 
+    background: #90caf9; 
+    border-color: #90caf9; 
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus { 
+    background: #90b1f9b;  
+    border-color: #90b1f9; 
+    }
+
+@media only screen and (max-width: 400px) {
+    .item { 
+        margin-bottom: 25px;
+        padding: 0px 0px 0px 0px; 
+    }
+    }
+
+
+
+    
